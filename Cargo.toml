@@ -1,0 +1,12 @@
+[package]
+name = "enable-touch-id-sudo"
+version = "1.0.0"
+authors = ["Steven Berg <steven@stevenberg.net>"]
+edition = "2021"
+description = "Enable Touch ID authentication for sudo in macOS."
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.58"
