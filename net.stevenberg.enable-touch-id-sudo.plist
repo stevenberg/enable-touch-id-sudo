@@ -15,8 +15,8 @@
         <string>/usr/local/bin/enable-touch-id-sudo</string>
     </array>
     <key>StandardOutPath</key>
-    <string>/tmp/net.stevenberg.enable-touch-id-sudo.stdout.log</string>
+    <string>/Library/Logs/net.stevenberg.enable-touch-id-sudo.stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/net.stevenberg.enable-touch-id-sudo.stderr.log</string>
+    <string>/Library/Logs/net.stevenberg.enable-touch-id-sudo.stderr.log</string>
 </dict>
 </plist>
