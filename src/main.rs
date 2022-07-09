@@ -1,6 +1,8 @@
 use anyhow::Result;
-use std::fs::{self, File};
-use std::io::{BufRead, BufReader, Write};
+use std::{
+    fs::{self, File},
+    io::{BufRead, BufReader, Write},
+};
 
 const SUDO_PATH: &str = "/etc/pam.d/sudo";
 const TEMP_PATH: &str = "/tmp/enable-touch-id-sudo";
